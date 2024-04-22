@@ -42,6 +42,7 @@ nav {
 ul {
     list-style-type: none;
 }
+
 ul li {
     display: inline-block;
     margin-left: 25px;
@@ -53,17 +54,7 @@ ul li {
     text-align: center;
     color: rgb(22, 60, 78);
     height: auto;
-    width: 100%;
-    margin: 0;
-}
-
-.container {
-    display: flex;
-    height: auto;
-    width: 100%;
-    align-items: flex-start;
-    background-color: #f8f1df;
-    padding: 0;
+    width: fit-content;
     margin: 0;
 }
 
@@ -81,6 +72,14 @@ ul li {
     right: 50px;
 }
 
+.container {
+    display: flex;
+    align-items: right;
+    background-color: #f8f1df;
+    padding: 0;
+    margin: 0;
+}
+
 .titles {
     display: flex;
     justify-content: flex-end;
@@ -91,7 +90,7 @@ ul li {
     padding-right: 5px;
     height: auto;
     width: 25%;
-    color: rgb(22, 60, 78);
+    color: rgb(22 60 78);
     font-size: xx-large;
     font-weight: bold;
 }
@@ -100,9 +99,7 @@ ul li {
     display: block;
     margin-top: 20px;
     line-height: 145%;
-    padding-right: 5px;
-    padding-left: 30px;
-    height: auto;
+    padding: 10px 20px 10px 30px;
     width: 75%;
     color: black;
     border-left: solid 3px rgb(22, 60, 78);
@@ -112,10 +109,38 @@ ul li {
     display: block;
     margin-top: 20px;
     line-height: 145%;
-    padding-right: 5px;
-    padding-left: 30px;
-    height: auto;
+    padding: 10px 10px 10px 30px;
     width: 75%;
     color: black;
     border-left: solid 3px rgb(22, 60, 78);
+}
+
+.img1 {
+    display: block;
+    width: 900px;
+    max-width: 900px;
+    border: solid 5px red;
+}
+
+.project1title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    height: 80px;
+    width: 220px;
+    line-height: 70%;
+    background-color:red;
+    color: #f8f1df;
+    font-size: xx-large;
+    font-weight: bold;
+    position: relative;
+    bottom: 120px;
+}
+
+#titletext {
+    color: #f8f1df;
+    padding-top: 10px;
+    font-size: large;
+    font-weight: lighter;
 }
