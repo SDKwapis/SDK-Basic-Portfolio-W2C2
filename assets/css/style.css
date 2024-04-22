@@ -1,0 +1,121 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: block;
+    height: fit-content;
+    background-color: #fcdf2d;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: rgb(22, 60, 78);
+}
+
+header h1 {
+    display: flex;
+    height: 50px;
+    width: 250px;
+    padding: 10px;
+    color: #f8f1df;
+    background-color:rgb(22, 60, 78);
+    justify-content: right;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+    color: rgb(22, 60, 78);
+    font-weight: bold;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+ul li {
+    display: inline-block;
+    margin-left: 25px;
+    text-decoration: underline rgb(22, 60, 78) 2px;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: rgb(22, 60, 78);
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: flex-start;
+    background-color: #f8f1df;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 400px;
+    background-color:#fcdf2d;
+    font-size: xx-large;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+}
+
+.titles {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    padding-right: 5px;
+    height: auto;
+    width: 25%;
+    color: rgb(22, 60, 78);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.content1 {
+    display: block;
+    margin-top: 20px;
+    line-height: 145%;
+    padding-right: 5px;
+    padding-left: 30px;
+    height: auto;
+    width: 75%;
+    color: black;
+    border-left: solid 3px rgb(22, 60, 78);
+}
+
+.content2 {
+    display: block;
+    margin-top: 20px;
+    line-height: 145%;
+    padding-right: 5px;
+    padding-left: 30px;
+    height: auto;
+    width: 75%;
+    color: black;
+    border-left: solid 3px rgb(22, 60, 78);
+}
