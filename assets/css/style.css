@@ -10,6 +10,9 @@ body {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background-color: #fcdf2d;
     padding-bottom: 20px;
 }
