@@ -97,7 +97,6 @@ a:link {
   
   a:hover {
     color: #fa94ab;
-    background-color: #759c92;
     transition: all .25s;
   }
   
@@ -155,6 +154,8 @@ a:link {
 
 
 .img1 {
+    opacity: 1;
+    transition: 0.5s ease; 
     width: 925px;
     height: 400px;
     max-width: 100%;
@@ -164,7 +165,13 @@ a:link {
     overflow: hidden;
 }
 
+.img1:hover {
+    opacity: .5; /* final opacity */
+    }
+
 .img2 {
+    opacity: 1;
+    transition: 0.5s ease; 
     width: 450px;
     height: 200px;
     margin: 10px;
@@ -173,6 +180,10 @@ a:link {
     object-fit: cover;
     overflow: hidden;
 }
+
+.img2:hover {
+    opacity: .5; /* final opacity */
+    }
 
 .contact {
     color: rgb(22, 60, 78);
